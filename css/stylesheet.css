@@ -1,0 +1,35 @@
+/**
+ * Meron Asfaw, Winter 2023
+ */
+* {
+
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 4%;
+    margin-left: 2%;
+    background-image: url("/media/BackgroundImg.jpg");
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    border-radius: 15%;
+    float: left;
+    margin-top: -2%;
+    margin-right: 2%;
+}
+
+.nav-links ul li {
+    font-weight: bold;
+    justify-content: space-between;
+    display: inline-block;
+    margin-inline-end: 30px;
+}
+
+.background {
+    width: 70ch;
+}
