@@ -2,34 +2,166 @@
  * Meron Asfaw, Winter 2023
  */
 * {
-
+    /* background-color: #000; */
     font-family: sans-serif;
+    margin-bottom: 2%;
 }
 
 body {
-    margin-top: 4%;
     margin-left: 2%;
-    background-image: url("/media/BackgroundImg.jpg");
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-img {
-    border-radius: 15%;
-    float: left;
-    margin-top: -2%;
     margin-right: 2%;
+    background-color: #000;
+    /* background-image: url("../media/BackgroundImg.png"); */
 }
 
-.nav-links ul li {
-    font-weight: bold;
+.top{
+    margin:auto;
+}
+
+nav {
+    display:flex;
+    /* position: fixed; */
+    top: 0%;
+    align-items: center;
     justify-content: space-between;
+
+}
+
+.button {
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform .5s;
+    background-color: rgb(255, 0, 51);
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.background ul li a:hover, a:active {
+    color: rgb(255, 0, 51);
+    text-decoration: underline;
+}
+
+.button:hover {
+    transform: scale(120%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
     display: inline-block;
-    margin-inline-end: 30px;
+    padding: 15px 40px;
+    margin-left: -1%;
+    list-style-type: none;
+    /* background-color: #000; */
+}
+nav ul li a{
+    font-family: system-ui;
+    font-size: 15px;
+    color: white;
+}
+.major {
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+span {
+    color: rgb(255, 0, 51);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 45px;
 }
 
 .background {
-    width: 70ch;
+    background-image: url(../media/Profile.jpg);
+    background-size: 600px 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-blend-mode:inherit;
+    background-position-y: 50px;
+    width: 100%;
 }
+
+.background ul {
+    margin-top: 3%;
+    color: skyblue;
+    list-style-type: none;
+    margin-bottom: 10%;
+}
+ #experience{   /* Header of experiences*/ 
+    font-weight: bold;
+    color: rgb(255, 0, 51);
+ }
+ .work{ /* unordered list experiences */
+    font-family: system-ui;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 50ch;
+
+ }
+ .qualcomm{   /* Video */
+    margin-top: -8%;
+    /* padding-bottom: 10%; */
+ }
+ .education{ /* unordered list schools*/
+    /* padding-bottom: 10%; */
+    font-family: system-ui;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 85ch;
+    color: skyblue;
+ }
+ .ucsd{  /* Video */
+    margin-top: -8%;
+ }
+.skills{ /* unordered list skills */
+    font-family: system-ui;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 85ch;
+    color: skyblue;
+}
+ iframe {
+    width: 400px;
+    height: 200px;
+    border: none;
+ }
+
+ #view {  /* bottom left image */
+    border-radius: 25%;
+    float: left;
+    width: 600px;
+    height:800px;
+    margin-right: 2%;
+ }
+
+ .about p{  /* Bio */
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-family: system-ui;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: skyblue;
+ }
+ .contact li {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+ }
+
+ footer p{
+    text-align: center;
+    color:dodgerblue;
+ }
