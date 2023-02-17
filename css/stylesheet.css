@@ -60,11 +60,13 @@ nav ul li{
     list-style-type: none;
     /* background-color: #000; */
 }
+
 nav ul li a{
     font-family: system-ui;
     font-size: 15px;
     color: white;
 }
+
 .major {
     cursor: pointer;
     font-size: 20px;
@@ -101,64 +103,101 @@ span {
  #experience{   /* Header of experiences*/ 
     font-weight: bold;
     color: rgb(255, 0, 51);
+    padding-left: 12%;
  }
  .work{ /* unordered list experiences */
     font-family: system-ui;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.5px;
     width: 50ch;
+    padding: 15px;
+    padding-top: 2%;
+    background-color:rgb(32, 32, 32);
+    border-radius: 10px;
+
 
  }
- .qualcomm{   /* Video */
-    margin-top: -8%;
-    /* padding-bottom: 10%; */
- }
+
  .education{ /* unordered list schools*/
-    /* padding-bottom: 10%; */
     font-family: system-ui;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.5px;
-    width: 85ch;
+    width: 50ch;
     color: skyblue;
+    padding: 15px;
+    padding-top: 2%;
+    background-color:rgb(32, 32, 32);
+    border-radius: 10px;
  }
- .ucsd{  /* Video */
-    margin-top: -8%;
- }
-.skills{ /* unordered list skills */
+
+.skills { /* unordered list skills */
     font-family: system-ui;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.5px;
-    width: 85ch;
+    width: 60ch;
     color: skyblue;
+    padding: 15px;
+    padding-top: 2%;
+    background-color:rgb(32, 32, 32);
+    border-radius: 10px;
+    
+}
+#skill{
+    font-weight: bold;
+    color: rgb(255, 0, 51);
+    padding-left: 40%;
+    /* text-align: center; */
+}
+
+.mid{
+    margin-top: -25%;
+    margin-left: 50%;
+    padding-bottom: 10%;
 }
  iframe {
-    width: 400px;
+    width: 405px;
     height: 200px;
     border: none;
+    margin-top: -5%;
  }
 
  #view {  /* bottom left image */
-    border-radius: 25%;
+    border-radius: 50%;
     float: left;
     width: 600px;
     height:800px;
     margin-right: 2%;
  }
 
- .about p{  /* Bio */
-    padding-top: 20%;
-    padding-bottom: 20%;
+ .about ul {  /* Bio */
+    margin-top: 12%;
+    margin-bottom: 25%;
     font-family: system-ui;
     font-size: 15px;
     letter-spacing: 1.5px;
     color: skyblue;
+    padding: 15px;
+    padding-top: 2%;
+    background-color:rgb(32, 32, 32);
+    border-radius: 10px;
+    list-style-type: none;
  }
- .contact li {
-    padding-top: 20%;
-    padding-bottom: 20%;
-    display: inline-block;
-    padding: 5px 15px;
-    color: #fff;
+ .bio{
+    text-decoration: none;
+ }
+ #contact li {
+    margin-left: 12%;
+     display: inline-block;
+     padding: 5px 10px;
+     font-family: system-ui;
+     font-size: 15px;
+     letter-spacing: 1.5px;
+     color: skyblue;
+ }
+
+ #contact a:hover, a:active {
+    color: rgb(255, 0, 51);
+    text-decoration: underline;
  }
 
  footer p{
